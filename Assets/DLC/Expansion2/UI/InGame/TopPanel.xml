@@ -33,15 +33,13 @@
     <Image Anchor="C,C" TextureOffset="5,0" Texture="assets\UI\Art\WorldView\Divider.dds" Size="5.16"  />
     <TextButton Anchor="C,C"  String="TXT_KEY_HELP_CAPS"   Font="TwCenMT20" NormalState="Beige_Black"  MouseOver="White_Black" ButtonDown="Beige_Black_Alpha" ID="CivilopediaButton" ToolTip="TXT_KEY_CIVILOPEDIA_TOOLTIP" />
     <Image Anchor="C,C" TextureOffset="5,0" Texture="assets\UI\Art\WorldView\Divider.dds" Size="5.16"  />
-	
-	<!-- Relogio -->
-	<Label Anchor="C,C" Font="TwCenMT20" ColorSet="Beige_Black" FontStyle="Shadow" ID="ClockLabel"/>
-	<Image Anchor="C,C" TextureOffset="5,0" Texture="assets\UI\Art\WorldView\Divider.dds" Size="5.16"  />
-	
 		<Label Anchor="C,C" String="Date: 2100 AD"  ID="CurrentDate"/>
 		<Label Anchor="C,C" String="Turn: 1"  ID="CurrentTurn"/>
 	</Stack>
-
+	
+	<!-- Relogio -->
+	<Image Anchor="C,T" Offset="0,30" Texture="assets\UI\Art\WorldView\TopPanelBar.dds" Size="90.32" ConsumeMouse="true" />
+		<Label Anchor="C,T" Offset="0,38" Font="TwCenMT20" ColorSet="Beige_Black" FontStyle="Shadow" ID="ClockLabel"/>
 
 	<ToolTipType Name="TooltipTypeTopPanel" >
 		<Grid Size="530,90" Offset="8.0" Padding="8,8" Style="GridBlack8"  ID="TopPanelMouseover" NoClip="1" >
