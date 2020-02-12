@@ -23,4 +23,8 @@ Windows: C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization 
 
 ### Modificações atualmente inclusas
 - Tooltip que mostra os bonus de cada unidade/construção unica na tela de seleção de civilização no modo um jogador.
-- Relogio no canto superior direito da tela, proximo a exibição de turno e ano atual, no formato de 24hs.
+- Relógio no centro da tela, no formato de 24hs.
+
+#### Links Uteis
+- Como retirar o video de introdução do jogo, mensagem do EULA, etc.
+https://steamcommunity.com/sharedfiles/filedetails/?id=1294335515
